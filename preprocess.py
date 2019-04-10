@@ -11,9 +11,9 @@ def collate_fn(batch):
     
     max_num_context = 784
     num_context = np.random.randint(10,784) # extract random number of contexts
-#     num_target = np.random.randint(0, max_num_context - num_context)
-#     num_total_points = num_context + num_target # this num should be # of target points
-    num_total_points = max_num_context
+    num_target = np.random.randint(0, max_num_context - num_context)
+    num_total_points = num_context + num_target # this num should be # of target points
+#     num_total_points = max_num_context
     context_x, context_y, target_x, target_y = list(), list(), list(), list()
     
     for d, _ in batch:
