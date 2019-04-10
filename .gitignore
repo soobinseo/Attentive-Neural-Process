@@ -1,0 +1,8 @@
+checkpoint/*
+data/*
+runs/*
+prototype.ipynb
+test.ipynb
+log.txt
+*.pyc
+.ipynb_checkpoints/
