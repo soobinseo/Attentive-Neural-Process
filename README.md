@@ -2,6 +2,8 @@
 <p align="center">
 <img src="pngs/anp.png">
 </p>
+
+## Description
 * A pytorch implementation of [Attentive Neural Process](https://arxiv.org/abs/1901.05761).
 * Simple code for generating samples with ANP.
 * I will update the super-resolution experiments soon.
